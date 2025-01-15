@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+
+@media screen and (max-width: 767px) {
+  .card-container > *:not(.circle-link) ,
+  .terminal {
+    width: 100%;
+  }
+
+  .card:not(.highlight-card) {
+    height: 16px;
+    margin: 8px 0;
+  }
+
+  .card.highlight-card span {
+    margin-left: 72px;
+  }
+
+  svg#rocket-smoke {
+    right: 120px;
+    transform: rotate(-5deg);
+  }
+}
+
+@media screen and (max-width: 575px) {
+  svg#rocket-smoke {
+    display: none;
+    visibility: hidden;
+  }
+}
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(3,36,0);
+  background: radial-gradient(circle, rgba(3,36,0,1) 0%, rgba(64,134,72,1) 75%, rgba(37,196,22,0.9304096638655462) 100%);
+}
