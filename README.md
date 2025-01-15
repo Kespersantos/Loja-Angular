@@ -1,27 +1,70 @@
-# Loja-Angular
+# Loja Angular 🛒
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Bem-vindo ao **Loja Angular**, um projeto desenvolvido em Angular para simular uma loja virtual funcional. Este repositório contém o código-fonte de uma aplicação que permite visualizar produtos, futuramente gerenciar um carrinho de compras e concluir pedidos.
 
-## Development server
+## 📋 Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Exibição de lista de produtos.
+- Detalhes do produto.
+- Gerenciamento de carrinho de compras (adicionar/remover itens). #em breve
+- Finalização de pedidos. #em breve
 
-## Code scaffolding
+## 🚀 Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular**: Framework principal.
+- **TypeScript**: Linguagem base.
+- **HTML5 e CSS3**: Criação da interface de usuário.
+- **Node.js**: Gerenciamento de pacotes e execução de ferramentas.
 
-## Build
+## 🛠️ Pré-requisitos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Antes de iniciar, certifique-se de ter os seguintes softwares instalados:
 
-## Running unit tests
+- [Node.js](https://nodejs.org/) (versão 14 ou superior).
+- [Angular CLI](https://angular.io/cli) (versão 14.1.2 ou superior).
+- Um navegador da web moderno.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📦 Instalação
 
-## Running end-to-end tests
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/Kespersantos/Loja-Angular.git
+Navegue até o diretório do projeto:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+bash
+cd Loja-Angular
 
-## Further help
+2. Instale as dependências:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+bash
+npm install
+
+▶️ Executando a Aplicação
+Inicie o servidor de desenvolvimento:
+
+bash
+ng serve
+Acesse a aplicação no navegador:
+http://localhost:4200/
+
+🗂️ Estrutura do Projeto
+src/app/components: Componentes reutilizáveis da aplicação.
+src/app/services: Serviços responsáveis pela lógica de negócios e comunicação com APIs.
+src/app/models: Modelos de dados usados na aplicação.
+🧪 Testes
+Testes unitários:
+
+bash
+ng test
+Testes de integração (end-to-end):
+
+bash
+ng e2e
+🤝 Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+📝 Licença
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
+
+💻 Desenvolvido por Kespersantos com Angular. Sinta-se à vontade para explorar, modificar e utilizar este código para aprendizado e desenvolvimento pessoal.
+
